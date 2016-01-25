@@ -11,8 +11,7 @@ def process_message(data):
         if dt is None:
             outputs.append([data['channel'], 'Speaka-English please. I couldn\'t understand the proposed time'])
         else:
-            outputs.append([data['channel'], 'YO! :thumbsup: this msg if you\'d like to:\n\"{}\"'.format(msg)])
-            outputs.append([data['channel'], '(' + str(dt) + ')'])
+            outputs.append([data['channel'], 'YO! :thumbsup: this msg if you\'d like to:\n\"' + msg + '\"\n(Or ' + str(dt) + ')'])
 
 def get_datetime(s):
     c = pdt.Calendar()

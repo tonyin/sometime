@@ -1,5 +1,12 @@
-requests
-python-daemon
-pyyaml
-websocket-client
-slackclient
+PyYAML==3.11
+argparse==1.2.1
+backports.ssl-match-hostname==3.5.0.1
+docutils==0.12
+lockfile==0.12.2
+parsedatetime==1.5
+python-daemon==2.1.0
+requests==2.9.1
+six==1.10.0
+slackclient==0.16
+websocket-client==0.35.0
+wsgiref==0.1.2
